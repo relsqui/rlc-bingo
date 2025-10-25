@@ -1,0 +1,19 @@
+name: Validate item list JSON
+
+on:
+  pull_request:
+    branches:
+    - main
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  check_schema:
+    name: Validate item list JSON
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Install the JSON Schema CLI
+      uses: sourcemeta/jsonschema@v11.8.3
+    - run: jsonschema validate item-schema.json src/items.json

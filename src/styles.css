@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:extrabold");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+:root {
+  --card-color: #ff8c00;
+  --chip-color: #d81810;
+  --accent-color: #502018;
+  --title-color: var(--chip-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito Sans, sans-serif;
+  background-color: #101000;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: Metal Mania, serif;
+  color: var(--title-color);
+  text-shadow: var(--accent-color) 4px 4px 3px;
+  letter-spacing: 0.1em;
+  display: block;
+  font-size: 7vmin;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  aspect-ratio: 1;
+  max-width: 85vw;
+  max-height: 75vh;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  aspect-ratio: 1;
+  background-color: var(--card-color);
+  border: medium var(--accent-color) solid;
+  border-radius: 0.8vmin;
+  margin: 0.3vmin;
+  padding: 1.2vmin;
+  font-size: 2.5vmin;
+  font-weight: 800;
+}
+
+
+/*
+chipHolder lets us make the chip position absolute and relative
+at the same time -- chipHolder is absolute so the chip will be
+centered in the card item without causing anything else to shift
+positions, and then the chip itself is relative so it can be
+offset from that centered position.
+*/
+
+.chipHolder {
+  position: absolute;
+  display: flex;
+}
+
+.chip {
+  position: relative;
+  background-color: var(--chip-color);
+  aspect-ratio: 1;
+  height: 5em;
+  border-radius: 50%;
+  border: medium var(--accent-color) solid;
+  opacity: 75%;
+}

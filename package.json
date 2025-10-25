@@ -1,0 +1,33 @@
+{
+  "name": "rlc-bingo",
+  "version": "0.0.2",
+  "description": "Do you want your possessions identified?",
+  "main": "server.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "styled-components": "^6.1.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead"
+  ],
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://github.com/relsqui/rlc-bingo"
+  },
+  "glitch": {
+    "projectType": "generated_static"
+  }
+}

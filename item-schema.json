@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://foo.finn.fun/item-schema.json",
+  "title": "FOO bingo card items",
+  "description": "The set of possible items for a First of October bingo card.",
+  "type": "object",
+  "properties": {
+    "items": {
+      "description": "The list of items.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 16,
+      "uniqueItems": true
+    }
+  },
+  "required": ["items"]
+}
+
