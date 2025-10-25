@@ -1,3 +1,4 @@
+Play on https://relsqui.github.io/rlc-bingo/
 * Tap a square to place or remove a marker
 * Refresh to get a new card
 
