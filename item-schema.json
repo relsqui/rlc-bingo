@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://foo.finn.fun/item-schema.json",
-  "title": "FOO bingo card items",
-  "description": "The set of possible items for a First of October bingo card.",
+  "$id": "https://raw.githubusercontent.com/relsqui/rlc-bingo/refs/heads/main/item-schema.json",
+  "title": "RLC bingo card items",
+  "description": "The set of possible items for a Roguelike Celebration bingo card.",
   "type": "object",
   "properties": {
     "items": {

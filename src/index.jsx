@@ -8,7 +8,7 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
       <main className="content">
-        <h1 className="title">First of October Bingo</h1>
+        <h1 className="title">Roguelike Celebration Bingo</h1>
         <Card />
       </main>
 );
