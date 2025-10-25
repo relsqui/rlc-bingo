@@ -1,3 +1,6 @@
+<img width="983" height="861" alt="image" src="https://github.com/user-attachments/assets/ffc6c6df-b4c8-4b1d-b77b-685ad449b8cc" />
+
+
 Play on https://relsqui.github.io/rlc-bingo/
 * Tap a square to place or remove a marker
 * Refresh to get a new card
