@@ -1,17 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:extrabold");
-@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@import url('https://fonts.googleapis.com/css2?family=VT323');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen');
 
 :root {
-  --card-color: #ff8c00;
-  --chip-color: #d81810;
+  --card-color: #ffe8f0;
   --accent-color: #502018;
-  --title-color: var(--chip-color);
+  --chip-color: #30c030;
+  --title-color: var(--chip-color)
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Nunito Sans, sans-serif;
   background-color: #101000;
 }
 
@@ -27,7 +26,7 @@ body {
 }
 
 .title {
-  font-family: Metal Mania, serif;
+  font-family: "VT323", serif;
   color: var(--title-color);
   text-shadow: var(--accent-color) 4px 4px 3px;
   letter-spacing: 0.1em;
@@ -41,8 +40,8 @@ body {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   aspect-ratio: 1;
-  max-width: 85vw;
-  max-height: 75vh;
+  max-width: 90vw;
+  max-height: 80vh;
 }
 
 .item {
@@ -55,9 +54,10 @@ body {
   border: medium var(--accent-color) solid;
   border-radius: 0.8vmin;
   margin: 0.3vmin;
-  padding: 1.2vmin;
-  font-size: 2.5vmin;
+  padding: 1.5vmin;
+  font-size: 2.2vmin;
   font-weight: 800;
+  font-family: "Silkscreen", sans-serif;
 }
 
 
