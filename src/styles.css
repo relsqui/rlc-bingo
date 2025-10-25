@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen');
 
 :root {
-  --card-color: #ffe8f0;
+  --card-color: #f8e0e8;
   --accent-color: #502018;
   --chip-color: #30c030;
   --title-color: var(--chip-color)
@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #101000;
+  background-color: #201010;
 }
 
 .content {
@@ -52,7 +52,7 @@ body {
   aspect-ratio: 1;
   background-color: var(--card-color);
   border: medium var(--accent-color) solid;
-  border-radius: 0.8vmin;
+  /* border-radius: 0.8vmin; */
   margin: 0.3vmin;
   padding: 1.5vmin;
   font-size: 2.2vmin;
