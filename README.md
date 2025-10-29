@@ -1,4 +1,4 @@
-<img width="951" height="874" alt="image" src="https://github.com/user-attachments/assets/5c8865cc-c029-408a-83be-75872fd64938" />
+<img width="1116" height="1028" alt="image" src="https://github.com/user-attachments/assets/612e48be-0ec5-400a-889e-cb3a9fe06d6d" />
 
 
 Play on https://relsqui.github.io/rlc-bingo/
